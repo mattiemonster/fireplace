@@ -26,6 +26,7 @@ Partial Class About
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
+        Me.Label4 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
@@ -67,12 +68,23 @@ Partial Class About
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Fireplace 1.5"
         '
+        'Label4
+        '
+        Me.Label4.AutoSize = True
+        Me.Label4.ForeColor = System.Drawing.Color.Red
+        Me.Label4.Location = New System.Drawing.Point(12, 72)
+        Me.Label4.Name = "Label4"
+        Me.Label4.Size = New System.Drawing.Size(95, 13)
+        Me.Label4.TabIndex = 4
+        Me.Label4.Text = "Development build"
+        '
         'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
         Me.ClientSize = New System.Drawing.Size(228, 97)
+        Me.Controls.Add(Me.Label4)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
@@ -89,4 +101,5 @@ Partial Class About
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents Label4 As Label
 End Class

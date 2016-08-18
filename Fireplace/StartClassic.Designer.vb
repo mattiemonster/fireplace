@@ -54,9 +54,9 @@ Partial Class StartClassic
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(0, 416)
+        Me.Button1.Location = New System.Drawing.Point(115, 395)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(128, 23)
         Me.Button1.TabIndex = 2
         Me.Button1.Text = "Shutdown"
         Me.Button1.UseVisualStyleBackColor = True
@@ -112,34 +112,34 @@ Partial Class StartClassic
         '
         Me.Button4.Location = New System.Drawing.Point(6, 72)
         Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(237, 23)
+        Me.Button4.Size = New System.Drawing.Size(107, 23)
         Me.Button4.TabIndex = 8
         Me.Button4.Text = "Calculator"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(6, 101)
+        Me.Button5.Location = New System.Drawing.Point(115, 72)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(237, 23)
+        Me.Button5.Size = New System.Drawing.Size(128, 23)
         Me.Button5.TabIndex = 9
         Me.Button5.Text = "Text Editor"
         Me.Button5.UseVisualStyleBackColor = True
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(6, 156)
+        Me.Button6.Location = New System.Drawing.Point(115, 101)
         Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(237, 23)
+        Me.Button6.Size = New System.Drawing.Size(128, 23)
         Me.Button6.TabIndex = 10
         Me.Button6.Text = "Fireplace Script"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'Button7
         '
-        Me.Button7.Location = New System.Drawing.Point(6, 130)
+        Me.Button7.Location = New System.Drawing.Point(6, 101)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(237, 23)
+        Me.Button7.Size = New System.Drawing.Size(107, 23)
         Me.Button7.TabIndex = 11
         Me.Button7.Text = "Web browser"
         Me.Button7.UseVisualStyleBackColor = True
@@ -166,25 +166,25 @@ Partial Class StartClassic
         '
         Me.Button8.Location = New System.Drawing.Point(0, 395)
         Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(75, 23)
+        Me.Button8.Size = New System.Drawing.Size(113, 23)
         Me.Button8.TabIndex = 12
         Me.Button8.Text = "Run..."
         Me.Button8.UseVisualStyleBackColor = True
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(6, 183)
+        Me.Button9.Location = New System.Drawing.Point(6, 130)
         Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(237, 23)
+        Me.Button9.Size = New System.Drawing.Size(107, 23)
         Me.Button9.TabIndex = 13
         Me.Button9.Text = "FireNote"
         Me.Button9.UseVisualStyleBackColor = True
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(81, 395)
+        Me.Button10.Location = New System.Drawing.Point(115, 370)
         Me.Button10.Name = "Button10"
-        Me.Button10.Size = New System.Drawing.Size(162, 23)
+        Me.Button10.Size = New System.Drawing.Size(128, 23)
         Me.Button10.TabIndex = 14
         Me.Button10.Text = "Settings"
         Me.Button10.UseVisualStyleBackColor = True
@@ -193,7 +193,7 @@ Partial Class StartClassic
         '
         Me.Button11.Location = New System.Drawing.Point(0, 370)
         Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(243, 23)
+        Me.Button11.Size = New System.Drawing.Size(113, 23)
         Me.Button11.TabIndex = 15
         Me.Button11.Text = "Help App"
         Me.Button11.UseVisualStyleBackColor = True

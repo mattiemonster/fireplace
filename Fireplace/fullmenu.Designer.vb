@@ -35,10 +35,13 @@ Partial Class fullmenu
         Me.Label5 = New System.Windows.Forms.Label()
         Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
+        Me.Label6 = New System.Windows.Forms.Label()
+        Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
@@ -47,7 +50,7 @@ Partial Class fullmenu
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button1.Location = New System.Drawing.Point(-2, 0)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(722, 23)
+        Me.Button1.Size = New System.Drawing.Size(894, 23)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Back...."
         Me.Button1.UseVisualStyleBackColor = True
@@ -69,7 +72,7 @@ Partial Class fullmenu
             Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button2.Location = New System.Drawing.Point(-2, 20)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(722, 25)
+        Me.Button2.Size = New System.Drawing.Size(894, 25)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Change menu settings..."
         Me.Button2.UseVisualStyleBackColor = True
@@ -163,19 +166,40 @@ Partial Class fullmenu
         'Button5
         '
         Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.Button5.Location = New System.Drawing.Point(33, 43)
+        Me.Button5.Location = New System.Drawing.Point(39, 43)
         Me.Button5.Name = "Button5"
-        Me.Button5.Size = New System.Drawing.Size(687, 23)
+        Me.Button5.Size = New System.Drawing.Size(853, 23)
         Me.Button5.TabIndex = 13
         Me.Button5.Text = "Run"
         Me.Button5.UseVisualStyleBackColor = True
+        '
+        'Label6
+        '
+        Me.Label6.AutoSize = True
+        Me.Label6.Location = New System.Drawing.Point(789, 209)
+        Me.Label6.Name = "Label6"
+        Me.Label6.Size = New System.Drawing.Size(47, 13)
+        Me.Label6.TabIndex = 14
+        Me.Label6.Text = "FireNote"
+        '
+        'PictureBox5
+        '
+        Me.PictureBox5.Image = Global.Fireplace.My.Resources.Resources.Notepad
+        Me.PictureBox5.Location = New System.Drawing.Point(743, 86)
+        Me.PictureBox5.Name = "PictureBox5"
+        Me.PictureBox5.Size = New System.Drawing.Size(131, 120)
+        Me.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox5.TabIndex = 15
+        Me.PictureBox5.TabStop = False
         '
         'fullmenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.White
-        Me.ClientSize = New System.Drawing.Size(718, 516)
+        Me.ClientSize = New System.Drawing.Size(890, 516)
+        Me.Controls.Add(Me.PictureBox5)
+        Me.Controls.Add(Me.Label6)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Label5)
@@ -198,6 +222,7 @@ Partial Class fullmenu
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -215,4 +240,6 @@ Partial Class fullmenu
     Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button4 As Button
     Friend WithEvents Button5 As Button
+    Friend WithEvents Label6 As Label
+    Friend WithEvents PictureBox5 As PictureBox
 End Class

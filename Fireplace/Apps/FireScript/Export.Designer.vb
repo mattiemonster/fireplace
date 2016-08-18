@@ -45,7 +45,7 @@ Partial Class Export
         '
         Me.ComboBox1.FormattingEnabled = True
         Me.ComboBox1.Items.AddRange(New Object() {"Export as application... (.fpa)", "Export source... (.fpas)", "Export source... (.txt)"})
-        Me.ComboBox1.Location = New System.Drawing.Point(43, 40)
+        Me.ComboBox1.Location = New System.Drawing.Point(39, 25)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.Size = New System.Drawing.Size(248, 21)
         Me.ComboBox1.TabIndex = 1
@@ -73,7 +73,7 @@ Partial Class Export
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(243, 86)
+        Me.Button1.Location = New System.Drawing.Point(212, 52)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -82,7 +82,7 @@ Partial Class Export
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(162, 86)
+        Me.Button2.Location = New System.Drawing.Point(39, 52)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 3
@@ -94,7 +94,7 @@ Partial Class Export
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.ClientSize = New System.Drawing.Size(321, 112)
+        Me.ClientSize = New System.Drawing.Size(321, 86)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.ComboBox1)

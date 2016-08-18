@@ -54,4 +54,10 @@
         run.TopMost = True
         run.TopMost = False
     End Sub
+
+    Private Sub PictureBox5_Click(sender As Object, e As EventArgs) Handles PictureBox5.Click
+        FireNote.Show()
+        FireNote.TopMost = True
+        FireNote.TopMost = False
+    End Sub
 End Class

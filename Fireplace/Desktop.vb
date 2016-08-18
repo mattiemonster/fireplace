@@ -73,7 +73,7 @@
     End Sub
 
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
-        MsgBox(Date.Now.ToString("dd/MM/yyyy HH:mm:ss"), MsgBoxStyle.Information, "Date and Time")
+        MsgBox(Date.Now.ToString("dd/MM/yyyy HH:mm:ss"), MsgBoxStyle.Information, "Date and Time (day/month/year)")
     End Sub
 
     Private Sub HelpToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles HelpToolStripMenuItem.Click

@@ -37,32 +37,32 @@ Partial Class Form1
         Me.TextBox1.Name = "TextBox1"
         Me.TextBox1.Size = New System.Drawing.Size(707, 147)
         Me.TextBox1.TabIndex = 0
-        Me.TextBox1.Text = "Welcome to Fireplace!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Click next to continue..." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Or click More Introduction Te" & _
-    "xt for further infomation!"
+        Me.TextBox1.Text = "Welcome to Fireplace!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Click next to continue..." & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Or click More Introduction Te" &
+    "xt for further infomation!" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "This is old..."
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(14, 70)
+        Me.Button1.Location = New System.Drawing.Point(63, 70)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(681, 23)
+        Me.Button1.Size = New System.Drawing.Size(581, 23)
         Me.Button1.TabIndex = 1
         Me.Button1.Text = "NEXT    -->"
         Me.Button1.UseVisualStyleBackColor = True
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(14, 94)
+        Me.Button2.Location = New System.Drawing.Point(63, 94)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(681, 23)
+        Me.Button2.Size = New System.Drawing.Size(581, 23)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "MORE INTRODUCTION TEXT"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(14, 120)
+        Me.Button3.Location = New System.Drawing.Point(63, 120)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(681, 23)
+        Me.Button3.Size = New System.Drawing.Size(581, 23)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "SHUT DOWN"
         Me.Button3.UseVisualStyleBackColor = True

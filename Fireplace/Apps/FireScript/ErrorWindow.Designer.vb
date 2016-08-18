@@ -24,13 +24,14 @@ Partial Class ErrorWindow
     Private Sub InitializeComponent()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(9, 21)
+        Me.Label1.Location = New System.Drawing.Point(10, 10)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(279, 13)
         Me.Label1.TabIndex = 0
@@ -45,12 +46,23 @@ Partial Class ErrorWindow
         Me.Button1.Text = "Close"
         Me.Button1.UseVisualStyleBackColor = True
         '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(12, 26)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(87, 13)
+        Me.Label2.TabIndex = 2
+        Me.Label2.Text = "Unspecified error"
+        '
         'ErrorWindow
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.DarkRed
         Me.ClientSize = New System.Drawing.Size(396, 57)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.ForeColor = System.Drawing.SystemColors.ControlText
@@ -65,4 +77,5 @@ Partial Class ErrorWindow
 
     Friend WithEvents Label1 As Label
     Friend WithEvents Button1 As Button
+    Friend WithEvents Label2 As Label
 End Class

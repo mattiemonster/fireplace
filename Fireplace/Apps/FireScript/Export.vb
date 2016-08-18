@@ -32,4 +32,8 @@
     Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
         Close()
     End Sub
+
+    Private Sub Export_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        TopMost = True
+    End Sub
 End Class
