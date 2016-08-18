@@ -1,0 +1,15 @@
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)\Fireplace\Dependencies\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)\Fireplace\Dependencies\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)\Fireplace\Dependencies\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.Resources.resources
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.vbproj.GenerateResource.Cache
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)Fireplace\Dependencies\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)Fireplace\Dependencies\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\$(SolutionDir)Fireplace\Dependencies\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Release\FireplaceEngine.vbprojResolveAssemblyReference.cache

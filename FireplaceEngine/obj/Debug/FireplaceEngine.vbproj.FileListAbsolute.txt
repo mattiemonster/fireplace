@@ -1,0 +1,18 @@
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.vbprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.Resources.resources
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.vbproj.GenerateResource.Cache
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.dll
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.xml
+C:\Users\Matthew\Documents\Visual Studio 2015\Projects\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.dll
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.pdb
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\CompleteBuild\FireplaceEngine.xml
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.vbprojResolveAssemblyReference.cache
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.Resources.resources
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.vbproj.GenerateResource.Cache
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.dll
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.xml
+C:\Users\Matthew\Documents\FireplaceFiles\Fireplace\FireplaceEngine\obj\Debug\FireplaceEngine.pdb
