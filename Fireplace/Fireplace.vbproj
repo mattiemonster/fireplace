@@ -145,10 +145,22 @@
     <Compile Include="Apps\ErrorDictionary\ED_MENU.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Apps\FireNote.Designer.vb">
+    <Compile Include="Apps\FireNote\FireNote.Designer.vb">
       <DependentUpon>FireNote.vb</DependentUpon>
     </Compile>
-    <Compile Include="Apps\FireNote.vb">
+    <Compile Include="Apps\FireNote\FireNote.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\FireNote\FireNoteClear.Designer.vb">
+      <DependentUpon>FireNoteClear.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\FireNote\FireNoteClear.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\FireNote\FireNoteClose.Designer.vb">
+      <DependentUpon>FireNoteClose.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\FireNote\FireNoteClose.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Apps\FireplaceScriptAPP.Designer.vb">
@@ -484,8 +496,14 @@
     <EmbeddedResource Include="Apps\ErrorDictionary\ED_MENU.resx">
       <DependentUpon>ED_MENU.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Apps\FireNote.resx">
+    <EmbeddedResource Include="Apps\FireNote\FireNote.resx">
       <DependentUpon>FireNote.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\FireNote\FireNoteClear.resx">
+      <DependentUpon>FireNoteClear.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\FireNote\FireNoteClose.resx">
+      <DependentUpon>FireNoteClose.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\FireplaceScriptAPP.resx">
       <DependentUpon>FireplaceScriptAPP.vb</DependentUpon>

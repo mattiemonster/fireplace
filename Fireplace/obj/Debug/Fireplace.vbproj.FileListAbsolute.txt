@@ -277,3 +277,5 @@ C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.Sta
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.vbproj.GenerateResource.Cache
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.exe.manifest
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.application
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.FireNoteClose.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Debug\Fireplace.FireNoteClear.resources

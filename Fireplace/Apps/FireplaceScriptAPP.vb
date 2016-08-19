@@ -88,7 +88,7 @@
 
             If sarray(0) = "ib" Then
                 ibinput = InputBox("Input:", "Please enter your input")
-                MsgBox("You entered:" + ibinput)
+                MsgBox("You entered: " + ibinput)
             End If
 
             If sarray(0) = "runcalc" Then

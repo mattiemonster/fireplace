@@ -4,6 +4,8 @@
     Public classicmenuopen = False
     Public loginname = "Admin"
     Public loginResBackColor = "blue"
+    Public appFireNoteShowCloseMsg = True
+    Public appFireNoteShowClearMsg = True
 
     Private Sub Desktop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         StartClassic1.Hide()
