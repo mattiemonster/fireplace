@@ -3,6 +3,7 @@
     Public usedslots As Integer = 1
     Public loggedas As String = "Admin"
     Public password As String = "password@123"
+    Public quickloginallowed = True
 
     Private Sub CreateNewAccountToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CreateNewAccountToolStripMenuItem.Click
         createnewuser.Show()
@@ -57,7 +58,11 @@
     End Sub
 
     Private Sub QuickLogonToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles QuickLogonToolStripMenuItem.Click
-        QuickLogin.Show()
+        If quickloginallowed = True Then
+            QuickLogin.Show()
+        Else
+            engine.fpQuickLogonDisabled()
+        End If
     End Sub
 
     Private Sub ChangePasswordToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles ChangePasswordToolStripMenuItem.Click

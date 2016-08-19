@@ -200,3 +200,4 @@ C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.S
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.vbproj.GenerateResource.Cache
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.exe.manifest
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.application
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QuickLogonToggle.resources

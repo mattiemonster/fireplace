@@ -104,4 +104,17 @@
     Public Shared Sub throw0X2T002()
         ERROR_BOX_FPS.windowAlreadyCreated()
     End Sub
+
+    Public Shared Sub helpQuickLogonToggle()
+        HELP_MESSAGES.helpQuickLogonToggle()
+    End Sub
+
+    Public Shared Sub fpQuickLogonDisabled()
+        ERROR_THROW.throwQuickLogonDisabled()
+    End Sub
+
+    Public Shared Sub throw1Xneg1T002()
+        ERROR_THROW.throwQuickLogonDisabled()
+    End Sub
+
 End Class

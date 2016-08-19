@@ -295,6 +295,12 @@
     <Compile Include="Apps\setLoginResBackground.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Apps\Settings\QuickLogonToggle.Designer.vb">
+      <DependentUpon>QuickLogonToggle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\Settings\QuickLogonToggle.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Apps\shutdown.Designer.vb">
       <DependentUpon>shutdown.vb</DependentUpon>
     </Compile>
@@ -365,6 +371,7 @@
     <Compile Include="EngineBuiltIn\engine\ERROR\ERROR_BOX.vb" />
     <Compile Include="EngineBuiltIn\engine\ERROR\ERROR_THROW.vb" />
     <Compile Include="EngineBuiltIn\engine\FPSCRIPT\ERROR_BOX_FPS.vb" />
+    <Compile Include="EngineBuiltIn\engine\HELP\HELP_MESSAGES.vb" />
     <Compile Include="EngineBuiltIn\engine\MATH.vb" />
     <Compile Include="EngineBuiltIn\engine\MESSAGES\INFORMATION_MESSAGE.vb" />
     <Compile Include="Form1.vb">
@@ -570,6 +577,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\setLoginResBackground.resx">
       <DependentUpon>setLoginResBackground.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\Settings\QuickLogonToggle.resx">
+      <DependentUpon>QuickLogonToggle.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\shutdown.resx">
       <DependentUpon>shutdown.vb</DependentUpon>

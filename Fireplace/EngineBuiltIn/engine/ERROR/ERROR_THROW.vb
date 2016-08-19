@@ -24,10 +24,14 @@
     End Sub
 
     Public Shared Sub throwFPFeatureNotFound()
-        MsgBox("1X-1T001 - The feature you tried to use in Fireplace has not yet been implemented.", MsgBoxStyle.Information, "1X-1T001")
+        MsgBox("1X-1T001 - The feature you tried to use in Fireplace has not yet been implemented.", MsgBoxStyle.Information, "DANG IT! - 1X-1T001")
     End Sub
 
     Public Shared Sub throwFPSWindowAlreadyCreated()
         MsgBox("ERROR 0X2T002 - Internal App Error: Window Already Created!", MsgBoxStyle.Critical, "DANG IT! - 0X2T002")
+    End Sub
+
+    Public Shared Sub throwQuickLogonDisabled()
+        MsgBox("ERROR 1X-1T002 - Quick Logon is disabled. You must logon using the alternative method to be able to enable it.", MsgBoxStyle.Critical, "DANG IT! - 1X-1T002")
     End Sub
 End Class

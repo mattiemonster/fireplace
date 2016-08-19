@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fireplace.exe" size="388032">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Fireplace.exe" size="391616">
       <assemblyIdentity name="Fireplace" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>+9TF9Wgd3g/WPgLbVI6lZpHoAe8Af5MTdCW68KbrmQg=</dsig:DigestValue>
+        <dsig:DigestValue>L7Nh1VdQrkSu/PEz0eX94Fa3I4egX12YcAdUjtguG4s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

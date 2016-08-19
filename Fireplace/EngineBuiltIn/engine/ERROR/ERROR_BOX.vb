@@ -30,4 +30,12 @@
     Public Shared Sub e1Xneg1T001()
         MsgBox("ERROR 1X-1T001", MsgBoxStyle.Exclamation, "1X-1T001")
     End Sub
+
+    Public Shared Sub quickLoginDisabled()
+        MsgBox("ERROR 1X-1T002", MsgBoxStyle.Critical, "1X-1T002")
+    End Sub
+
+    Public Shared Sub e1Xneg1T002()
+        MsgBox("ERROR 1X-1T002", MsgBoxStyle.Critical, "1X-1T002")
+    End Sub
 End Class
