@@ -201,3 +201,4 @@ C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.v
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.exe.manifest
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.application
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QuickLogonToggle.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QuickLogonDisabled.resources

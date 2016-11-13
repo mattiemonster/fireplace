@@ -113,8 +113,14 @@ Public Class run
             HELP_menu.Show()
         ElseIf TextBox1.Text = "help_changebackground" Then
             HELP_desktopbackground.Show()
+        ElseIf TextBox1.Text = "quick_logon_disabled" Then
+            QuickLogonDisabled.Show()
         Else
             MsgBox("This program does not exist. Please press 'OK' to close this and try again.")
         End If
+    End Sub
+
+    Private Sub run_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
     End Sub
 End Class
