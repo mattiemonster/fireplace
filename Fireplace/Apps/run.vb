@@ -134,6 +134,9 @@ Public Class run
         ElseIf TextBox1.Text = "help_qldisabled_fancy" Then
             AppOpenHistory.ListBox1.Items.Add("App: Quick Logon Disabled Help (Fancy) | Using: Run")
             QLDHelpFancy.Show()
+        ElseIf TextBox1.Text = "cmd_about" Then
+            AppOpenHistory.ListBox1.Items.Add("App: About FP CMD | Using: Run")
+            cmd_about.Show()
         Else
             MsgBox("This program does not exist. Please press 'OK' to close this and try again.")
         End If
