@@ -13,8 +13,9 @@
     End Sub
 
     Private Sub Button2_Click_1(sender As Object, e As EventArgs) Handles Button2.Click
-        MsgBox("Please bare with me while I add this feature again.")
-        engine.fpFeatureNotFound()
+        'MsgBox("Please bare with me while I add this feature again.")
+        'engine.fpFeatureNotFound()
+        UpdateType.Show()
     End Sub
 
     Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click

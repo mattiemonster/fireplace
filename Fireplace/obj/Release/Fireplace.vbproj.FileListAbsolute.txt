@@ -206,3 +206,5 @@ C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.Q
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QLDSettings.resources
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.CurrentlyOff.resources
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.CurrentlyOn.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\completebuild\EngineBuiltIn\engine\HELP\HELP_MESSAGES.vb
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.UpdateType.resources

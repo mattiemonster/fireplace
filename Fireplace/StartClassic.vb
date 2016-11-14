@@ -1,6 +1,6 @@
 ﻿Public Class StartClassic
 
-    Public menutype = "classic"
+    Public menutype As String
 
     Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
         shutdown.Show()
@@ -69,5 +69,9 @@
 
     Private Sub Button11_Click(sender As Object, e As EventArgs) Handles Button11.Click
         HELP_menu.Show()
+    End Sub
+
+    Private Sub StartClassic_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        menutype = "classic"
     End Sub
 End Class
