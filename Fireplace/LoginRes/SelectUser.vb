@@ -62,6 +62,7 @@
             QuickLogin.Show()
         Else
             engine.fpQuickLogonDisabled()
+            QuickLogonDisabled.Show()
         End If
     End Sub
 

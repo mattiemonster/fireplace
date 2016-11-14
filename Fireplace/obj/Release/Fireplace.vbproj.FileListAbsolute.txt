@@ -202,3 +202,7 @@ C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.e
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.application
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QuickLogonToggle.resources
 C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QuickLogonDisabled.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QLDHelpFancy.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.QLDSettings.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.CurrentlyOff.resources
+C:\Users\Matthew\Documents\Fireplace\fireplace\Fireplace\obj\Release\Fireplace.CurrentlyOn.resources

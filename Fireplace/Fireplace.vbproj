@@ -271,6 +271,18 @@
     <Compile Include="Apps\Links.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Apps\QuickLogon\QLDHelpFancy.Designer.vb">
+      <DependentUpon>QLDHelpFancy.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\QuickLogon\QLDHelpFancy.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Apps\QuickLogon\QLDSettings.Designer.vb">
+      <DependentUpon>QLDSettings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Apps\QuickLogon\QLDSettings.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Apps\QuickLogon\QuickLogonDisabled.Designer.vb">
       <DependentUpon>QuickLogonDisabled.vb</DependentUpon>
     </Compile>
@@ -486,6 +498,18 @@
     <Compile Include="StartClassic.vb">
       <SubType>UserControl</SubType>
     </Compile>
+    <Compile Include="Util\CurrentlyOff.Designer.vb">
+      <DependentUpon>CurrentlyOff.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Util\CurrentlyOff.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Util\CurrentlyOn.Designer.vb">
+      <DependentUpon>CurrentlyOn.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Util\CurrentlyOn.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="AppOpenHistoryAdd.resx">
@@ -571,6 +595,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\Links.resx">
       <DependentUpon>Links.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\QuickLogon\QLDHelpFancy.resx">
+      <DependentUpon>QLDHelpFancy.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Apps\QuickLogon\QLDSettings.resx">
+      <DependentUpon>QLDSettings.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Apps\QuickLogon\QuickLogonDisabled.resx">
       <DependentUpon>QuickLogonDisabled.vb</DependentUpon>
@@ -673,6 +703,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="StartClassic.resx">
       <DependentUpon>StartClassic.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Util\CurrentlyOff.resx">
+      <DependentUpon>CurrentlyOff.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Util\CurrentlyOn.resx">
+      <DependentUpon>CurrentlyOn.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

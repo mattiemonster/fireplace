@@ -6,6 +6,7 @@
     Public loginResBackColor = "blue"
     Public appFireNoteShowCloseMsg = True
     Public appFireNoteShowClearMsg = True
+    Public qld_fancy = True
 
     Private Sub Desktop_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         StartClassic1.Hide()
