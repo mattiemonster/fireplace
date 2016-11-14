@@ -73,24 +73,31 @@ Public Class run
             Close()
         ElseIf TextBox1.Text = "boxtester_errorcritical" Then
             engine.mjrerr()
+            AppOpenHistory.ListBox1.Items.Add("App: Critical error | Using: Run")
             Close()
         ElseIf TextBox1.Text = "boxtester_apperrorcritical" Then
             engine.mjrerrs()
+            AppOpenHistory.ListBox1.Items.Add("App: App Critical Error | Using: Run")
             Close()
         ElseIf TextBox1.Text = "boxtester_errorwarn" Then
             engine.warn()
+            AppOpenHistory.ListBox1.Items.Add("App: Warning | Using: Run")
             Close()
         ElseIf TextBox1.Text = "boxtester_apperrorwarn" Then
             engine.warns()
+            AppOpenHistory.ListBox1.Items.Add("App: App Warning | Using: Run")
             Close()
         ElseIf TextBox1.Text = "boxtester_fpfeaturenotfound" Then
             engine.fpFeatureNotFound()
+            AppOpenHistory.ListBox1.Items.Add("App: Feature Not Found Error | Using: Run")
             Close()
         ElseIf TextBox1.Text = "boxtester_e1X-1T001" Then
             engine.e1Xneg1T001()
+            AppOpenHistory.ListBox1.Items.Add("App: e1X-1T001 | Using: Run")
             Close()
         ElseIf TextBox1.Text = "fpwinexplorer" Then
             MsgBox("FIREPLACE_WINEXPLORER IS A TESTING APPLICATION")
+            AppOpenHistory.ListBox1.Items.Add("App: Fireplace Windows Explorer | Using: Run")
             FireplaceWindowsExplorer.Show()
             Close()
         ElseIf TextBox1.Text = "error_dictionary" Then
@@ -111,15 +118,21 @@ Public Class run
             Close()
         ElseIf TextBox1.Text = "help" Then
             HELP_menu.Show()
+            AppOpenHistory.ListBox1.Items.Add("App: Help | Using: Run")
         ElseIf TextBox1.Text = "help_changebackground" Then
             HELP_desktopbackground.Show()
+            AppOpenHistory.ListBox1.Items.Add("App: Help - Change Desktop Background | Using: Run")
         ElseIf TextBox1.Text = "quick_logon_disabled" Then
             QuickLogonDisabled.Show()
+            AppOpenHistory.ListBox1.Items.Add("App: Quick Logon Disabled Window | Using: Run")
         ElseIf TextBox1.Text = "help_qldisabled" Then
             HELP_MESSAGES.helpQuickLogonDisabled()
+            AppOpenHistory.ListBox1.Items.Add("App: Quick Logon Disabled Help | Using: Run")
         ElseIf TextBox1.Text = "help_qltoggle" Then
             HELP_MESSAGES.helpQuickLogonToggle()
+            AppOpenHistory.ListBox1.Items.Add("App: Quick Logon Toggle Help | Using: Run")
         ElseIf TextBox1.Text = "help_qldisabled_fancy" Then
+            AppOpenHistory.ListBox1.Items.Add("App: Quick Logon Disabled Help (Fancy) | Using: Run")
             QLDHelpFancy.Show()
         Else
             MsgBox("This program does not exist. Please press 'OK' to close this and try again.")
