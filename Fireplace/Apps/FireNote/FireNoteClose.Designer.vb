@@ -27,6 +27,7 @@ Partial Class FireNoteClose
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
+        Me.Button3 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -51,7 +52,7 @@ Partial Class FireNoteClose
         'Button1
         '
         Me.Button1.ForeColor = System.Drawing.Color.Black
-        Me.Button1.Location = New System.Drawing.Point(31, 27)
+        Me.Button1.Location = New System.Drawing.Point(30, 39)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
         Me.Button1.TabIndex = 2
@@ -61,7 +62,7 @@ Partial Class FireNoteClose
         'Button2
         '
         Me.Button2.ForeColor = System.Drawing.Color.Black
-        Me.Button2.Location = New System.Drawing.Point(278, 27)
+        Me.Button2.Location = New System.Drawing.Point(273, 39)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)
         Me.Button2.TabIndex = 3
@@ -79,13 +80,24 @@ Partial Class FireNoteClose
         Me.RadioButton1.Text = "Don't ask me again"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
+        'Button3
+        '
+        Me.Button3.ForeColor = System.Drawing.Color.Black
+        Me.Button3.Location = New System.Drawing.Point(150, 52)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(75, 23)
+        Me.Button3.TabIndex = 5
+        Me.Button3.Text = "Uncheck"
+        Me.Button3.UseVisualStyleBackColor = True
+        '
         'FireNoteClose
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Red
-        Me.ClientSize = New System.Drawing.Size(381, 55)
+        Me.ClientSize = New System.Drawing.Size(381, 83)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.RadioButton1)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -108,4 +120,5 @@ Partial Class FireNoteClose
     Friend WithEvents Button1 As Button
     Friend WithEvents Button2 As Button
     Friend WithEvents RadioButton1 As RadioButton
+    Friend WithEvents Button3 As Button
 End Class
