@@ -119,6 +119,8 @@ Public Class run
             HELP_MESSAGES.helpQuickLogonDisabled()
         ElseIf TextBox1.Text = "help_qltoggle" Then
             HELP_MESSAGES.helpQuickLogonToggle()
+        ElseIf TextBox1.Text = "help_qldisabled_fancy" Then
+            QLDHelpFancy.Show()
         Else
             MsgBox("This program does not exist. Please press 'OK' to close this and try again.")
         End If
