@@ -115,6 +115,10 @@ Public Class run
             HELP_desktopbackground.Show()
         ElseIf TextBox1.Text = "quick_logon_disabled" Then
             QuickLogonDisabled.Show()
+        ElseIf TextBox1.Text = "help_qldisabled" Then
+            HELP_MESSAGES.helpQuickLogonDisabled()
+        ElseIf TextBox1.Text = "help_qltoggle" Then
+            HELP_MESSAGES.helpQuickLogonToggle()
         Else
             MsgBox("This program does not exist. Please press 'OK' to close this and try again.")
         End If
